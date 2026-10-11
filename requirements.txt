@@ -1,0 +1,5 @@
+vkbottle>=4.11,<5
+openai>=3.0,<4
+pydantic>=2.7,<3
+python-dotenv>=1.0
+aiofiles>=24.1

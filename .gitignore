@@ -1,0 +1,30 @@
+# Секреты: реальные токены VK и ключ ProxyAPI
+.env
+.env.*
+!.env.example
+
+# Данные пользователей (переписки) и логи
+users/
+logs/
+*.log
+
+# Служебное состояние vkbottle (Long Poll ts, id сообщества)
+.vkbottle/
+
+# Материалы для сдачи (скриншоты) — не публикуются
+results/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.tmp
+
+# IDE / ОС
+.idea/
+.vscode/
+.cursor/
+Thumbs.db
+Desktop.ini
+.DS_Store
